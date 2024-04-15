@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.yourcompany.model.ContactTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.134 s <<< FAILURE! - in com.yourcompany.model.ContactTest
+testFailureScenario  Time elapsed: 0.121 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "wrong.email@example.com"
+ but was: "fake.email@example.com"
+	at com.yourcompany.model.ContactTest.testFailureScenario(ContactTest.java:39)
+
